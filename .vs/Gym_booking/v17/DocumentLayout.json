@@ -1,14 +1,35 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Sabah_Doc\\.NET_Lexicon\\Projects\\GymBooking\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{54D43844-1904-4A56-9BDF-479BAB570BE5}|Gym_booking\\Gym_booking.csproj|c:\\sabah_doc\\.net_lexicon\\projects\\gymbooking\\gym_booking\\controllers\\gymclassescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54D43844-1904-4A56-9BDF-479BAB570BE5}|Gym_booking\\Gym_booking.csproj|solutionrelative:gym_booking\\controllers\\gymclassescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54D43844-1904-4A56-9BDF-479BAB570BE5}|Gym_booking\\Gym_booking.csproj|c:\\sabah_doc\\.net_lexicon\\projects\\gymbooking\\gym_booking\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54D43844-1904-4A56-9BDF-479BAB570BE5}|Gym_booking\\Gym_booking.csproj|solutionrelative:gym_booking\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54D43844-1904-4A56-9BDF-479BAB570BE5}|Gym_booking\\Gym_booking.csproj|c:\\sabah_doc\\.net_lexicon\\projects\\gymbooking\\gym_booking\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54D43844-1904-4A56-9BDF-479BAB570BE5}|Gym_booking\\Gym_booking.csproj|solutionrelative:gym_booking\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54D43844-1904-4A56-9BDF-479BAB570BE5}|Gym_booking\\Gym_booking.csproj|c:\\sabah_doc\\.net_lexicon\\projects\\gymbooking\\gym_booking\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54D43844-1904-4A56-9BDF-479BAB570BE5}|Gym_booking\\Gym_booking.csproj|solutionrelative:gym_booking\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54D43844-1904-4A56-9BDF-479BAB570BE5}|Gym_booking\\Gym_booking.csproj|c:\\sabah_doc\\.net_lexicon\\projects\\gymbooking\\gym_booking\\gym_booking.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{54D43844-1904-4A56-9BDF-479BAB570BE5}|Gym_booking\\Gym_booking.csproj|solutionrelative:gym_booking\\gym_booking.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 56,
+          "DockedHeight": 355,
           "SelectedChildIndex": -1,
           "Children": [
             {
@@ -18,24 +39,85 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         },
         {
-          "DockedHeight": 440,
-          "SelectedChildIndex": -1,
+          "DockedHeight": 141,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GymClassesController.cs",
+              "DocumentMoniker": "C:\\Sabah_Doc\\.NET_Lexicon\\Projects\\GymBooking\\Gym_booking\\Controllers\\GymClassesController.cs",
+              "RelativeDocumentMoniker": "Gym_booking\\Controllers\\GymClassesController.cs",
+              "ToolTip": "C:\\Sabah_Doc\\.NET_Lexicon\\Projects\\GymBooking\\Gym_booking\\Controllers\\GymClassesController.cs",
+              "RelativeToolTip": "Gym_booking\\Controllers\\GymClassesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T07:03:40.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Sabah_Doc\\.NET_Lexicon\\Projects\\GymBooking\\Gym_booking\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Gym_booking\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Sabah_Doc\\.NET_Lexicon\\Projects\\GymBooking\\Gym_booking\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Gym_booking\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T06:39:24.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Sabah_Doc\\.NET_Lexicon\\Projects\\GymBooking\\Gym_booking\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Gym_booking\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Sabah_Doc\\.NET_Lexicon\\Projects\\GymBooking\\Gym_booking\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Gym_booking\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABwAAABgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T06:37:05.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Sabah_Doc\\.NET_Lexicon\\Projects\\GymBooking\\Gym_booking\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Gym_booking\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Sabah_Doc\\.NET_Lexicon\\Projects\\GymBooking\\Gym_booking\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Gym_booking\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T18:43:45.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Gym_booking",
+              "DocumentMoniker": "C:\\Sabah_Doc\\.NET_Lexicon\\Projects\\GymBooking\\Gym_booking\\Gym_booking.csproj",
+              "RelativeDocumentMoniker": "Gym_booking\\Gym_booking.csproj",
+              "ToolTip": "C:\\Sabah_Doc\\.NET_Lexicon\\Projects\\GymBooking\\Gym_booking\\Gym_booking.csproj",
+              "RelativeToolTip": "Gym_booking\\Gym_booking.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-16T18:43:39.814Z",
+              "EditorCaption": ""
             }
           ]
         }

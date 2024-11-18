@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Gym_booking")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9cb151b8fc182ba22d16d1487498385d40cb55c3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+66b8157b33dfd0fc6a59ae26c0f62f87e602b128")]
 [assembly: System.Reflection.AssemblyProductAttribute("Gym_booking")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Gym_booking")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

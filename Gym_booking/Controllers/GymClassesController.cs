@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Gym_booking.Data;
 using Gym_booking.Models;
+using Gym_booking.Models.ViewModels;
 
 namespace Gym_booking.Controllers
 {
@@ -54,16 +55,25 @@ namespace Gym_booking.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id")] GymClass gymClass)
+        public async Task<IActionResult> Create(CreateGymClassViewModel viewModel)
         {
             if (ModelState.IsValid)
             {
+                var gymClass = new GymClass
+                {
+                    Name = viewModel.Name,
+                    StartTime = viewModel.StartTime,
+                    Duration = viewModel.Duration,
+                    Description = viewModel.Description
+                };
+
                 _context.Add(gymClass);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(gymClass);
+            return View(viewModel);
         }
+
 
         // GET: GymClasses/Edit/5
         public async Task<IActionResult> Edit(int? id)
@@ -86,7 +96,7 @@ namespace Gym_booking.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id")] GymClass gymClass)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,StartTime,Duration,Description")] GymClass gymClass)
         {
             if (id != gymClass.Id)
             {
